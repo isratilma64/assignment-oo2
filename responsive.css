@@ -1,0 +1,48 @@
+@media only screen and (max-width:480px){
+    body{
+       width: 100%;
+       margin: 20px 30px;
+
+    }
+    .navtittle{
+        flex-direction:column;
+        
+    }
+    .flex-div{
+
+       flex-direction:column;
+    }
+     .right-banner-side{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-gap: 300px;
+       }
+       .popular-cards{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-gap: 30px;
+       }
+       .food-img img{
+        width: 60%;
+       }
+       .right-banner-side{
+        margin: 20px 0px;
+       }
+       .left-side{
+        width: 100%;
+       }
+       .personal-info{
+        margin: 30px 50px;
+       }
+       .right-side img{
+        width: 80%;
+        margin: 20px 0px;
+       }
+       .subscribehbar{
+        width: 80%;
+       }
+       .img-burger{
+        width: 80%;
+       }
+
+}
